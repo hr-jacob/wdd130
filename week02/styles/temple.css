@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    color: #333;
+    background-color: #333;
+    color: white;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
