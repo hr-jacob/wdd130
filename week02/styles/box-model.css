@@ -1,5 +1,9 @@
 .callout {
-	
+    width: 100px; 
+    margin: 10px;
+    border: 1px solid black;
+	    background-color: #247;
+    color: #fff;
 }
 
 .callout img {
