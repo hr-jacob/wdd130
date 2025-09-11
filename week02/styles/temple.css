@@ -8,7 +8,7 @@ header {
 
 main {
     width: 400px;
-    margin: auto;
+    margin:0 auto;
 
 h1 {
     text-align: center;
