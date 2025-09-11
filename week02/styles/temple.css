@@ -9,10 +9,14 @@ header {
 main {
     width: 400px;
     margin: auto;
+
+h1 {
+    text-align: center;
+}
+
 }
 
 image {
     width: 100px;
     height: auto;
-
 }
