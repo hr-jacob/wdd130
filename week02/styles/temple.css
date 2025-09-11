@@ -1,7 +1,6 @@
 header {
     background-color: rgb(10, 10, 10);
-    margin: 1rem;
-    padding: 1rem;
+    padding: 10px;
     color: #ffff;
     size: bigger;
     text-align: center;
@@ -15,4 +14,5 @@ main {
 image {
     width: 100px;
     height: auto;
+
 }
