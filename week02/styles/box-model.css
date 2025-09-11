@@ -12,7 +12,9 @@
     margin: auto;
 	border: 1px solid white;
     padding: 3px;
-    background-color: gold
+    background-color: gold;
+    width: 400px;
+    height: auto;
 }
 
 blockquote {
