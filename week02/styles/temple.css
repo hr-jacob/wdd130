@@ -6,10 +6,7 @@ header {
     size: bigger;
 }
 
-img {
+main {
     width: 300px;
-}
-
-body {
-    text-align: center;
+    margin: 0   auto;
 }
