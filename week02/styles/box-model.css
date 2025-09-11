@@ -10,7 +10,7 @@
 .callout img {
     float: right;
     margin: auto;
-	
+	border: 1px grey;
 }
 
 blockquote {
