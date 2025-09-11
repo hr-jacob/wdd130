@@ -7,6 +7,11 @@ header {
 }
 
 main {
-    width: 300px;
+    width: 400px;
     margin: 0   auto;
+}
+
+image {
+    width: 200px;
+    height: auto;
 }
