@@ -27,6 +27,18 @@ img {
     box-shadow: 0 0 30px #333;
 }
 
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: rgb(200, 207, 230);
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -34,3 +46,4 @@ footer {
     text-align: center;
     font-size: 1rem;
 }
+
