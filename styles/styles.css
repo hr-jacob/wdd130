@@ -23,6 +23,11 @@ aside {
     text-align: center;
 }
 
+aside img {
+    width: 400px;
+    height: auto;
+}
+
 h1 {
     color: darkblue;
 }
