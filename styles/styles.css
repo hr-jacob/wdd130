@@ -13,10 +13,6 @@ main {
     max-width: 840px;
 }
 
-main img {
-    width: 150px; height: auto;
-}
-
 aside {
     width: 20rem;
     margin: 1rem;
