@@ -36,11 +36,11 @@ h1 {
 }
 
 image {
-    width: 200px;
+    width: 150px;
     height: auto;
     border: 1px solid #000;
-    padding: 10px;
-    box-shadow: rgb(0 0 0 .5);
+    padding: 2px;
+    box-shadow:0 0 30px gray;
 }
 
 p {
