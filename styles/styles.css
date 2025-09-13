@@ -28,7 +28,7 @@ aside {
 }
 
 aside img {
-    width: 150px; height: auto;
+    width: 200px; height: auto;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 }
 
 image {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid #000;
     padding: 10px;
