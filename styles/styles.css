@@ -35,8 +35,12 @@ h1 {
     color: darkblue;
 }
 
-img {
-    width: 150px; height: auto;
+image {
+    width: 150px;
+    height: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    box-shadow: grey;
 }
 
 p {
