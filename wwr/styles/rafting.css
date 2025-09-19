@@ -42,11 +42,6 @@ header, main, footer {
     height: auto;
 }
 
-.hero article {
-    float: right;
-    width: 200px;
-}
-
 h1 {
     position: absolute;
     top: 20px;
