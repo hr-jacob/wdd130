@@ -36,6 +36,10 @@ header, main, footer {
     position: relative;
 }
 
+.article {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
