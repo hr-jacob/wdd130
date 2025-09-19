@@ -33,16 +33,17 @@ h1 h2 {
     color: var(--primary-color);
 }
 
+nav, p, section, article {
+    margin: 5px;
+    padding: 3px;
+}
+
 .socialmedia a{
     text-decoration: none;
 }
 
 .hero {
     position: relative;
-}
-
-.article {
-    position: absolute;
 }
 
 .hero img {
@@ -61,3 +62,13 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
+
+.hero article image {
+    float: right;
+    width: 125px;
+}
+
+.article {
+    position: absolute;
+}
+
