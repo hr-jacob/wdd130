@@ -1,7 +1,7 @@
 :root {
     --primary-color: #09bd09;
     --secondary-color: #61f497;
-    --accent1-color: darkblue;
+    --accent1-color: rgb(29, 1, 95);
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", "Serif";
     --body-font: Arial, Helvatica, sans-serif;
@@ -26,6 +26,11 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+}
+
+h1 h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 .socialmedia a{
