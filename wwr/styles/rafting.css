@@ -23,6 +23,11 @@ body {
     color: var(--accent1-color);
 }
 
+header, main, footer {
+    width: 840px;
+    color: var(--accent1-color);
+}
+
 .socialmedia a{
     text-decoration: none;
 }
