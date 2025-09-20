@@ -38,7 +38,7 @@ h1, h2 {
 
 nav, p, section, article {
     margin: 16px;
-    padding: 8px;
+    padding: auto;
 }
 
 .socialmedia a{
@@ -73,7 +73,7 @@ h1 {
     background: rgba(0, 0, 0, 0.6); /* optional dark overlay */
     color: #fff;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: auto;
     }
 
 .hero article img {
