@@ -73,7 +73,7 @@ h1 {
     background: rgba(0, 0, 0, 0.6); /* optional dark overlay */
     color: #fff;
     padding: 12px;
-    border-radius: auto;
+    border-radius: 8px;
     }
 
 .hero article img {
