@@ -62,3 +62,20 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
+
+.hero article {
+    position: absolute;
+    top: 100px;
+    bottom: 600px;  /* adjust as needed */
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6); /* optional dark overlay */
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
