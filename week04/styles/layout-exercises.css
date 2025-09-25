@@ -37,7 +37,7 @@ div {
 .container2 {
 display: flex;
 flex-wrap: wrap;
-place-items: space-around;
+justify-content: space-around;
 }
 
 .two {
