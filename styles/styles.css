@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.grid {
+      display: grid;
+      align-items: center;
+    }
+
 header, .grid, footer {
       max-width: 840px;
       margin: 0 auto;
@@ -26,6 +31,11 @@ nav a {
       font-weight: 700;
 }
 
+    main {
+      grid-column: 2/3;
+      margin: 1rem;
+    }
+
 main img {
     width: 150px;
     height: auto;
@@ -36,10 +46,10 @@ main img {
 }
 
 aside {
-    width: 20rem;
-    padding: 1rem;
-    text-align: center;
-    position: relative;
+      width: 20rem;
+      position: relative;
+      grid-column: 1/2;
+      grid-row: 1/2;
 }
 
 aside h2{
