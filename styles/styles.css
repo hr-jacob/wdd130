@@ -59,8 +59,10 @@ aside h2{
 }
 
 aside img {
-    width: 200px; 
+    display: block;   
+    width: 200px;
     height: auto;
+    margin: 0 auto; 
 }
 
 h1 {
