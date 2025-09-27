@@ -108,10 +108,9 @@ h1 {
   top: auto;
 }
 
-
 .image-row {
     display: grid;
-    margin-top: 1rem;
+    margin-top: 20px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 6px;
     text-align: center; 
