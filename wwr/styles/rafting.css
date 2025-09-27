@@ -105,6 +105,7 @@ h1 {
 .history-img {
   max-width: 100px; 
   height: auto;
+  top: auto;
 }
 
 
