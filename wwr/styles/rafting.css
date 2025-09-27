@@ -99,7 +99,7 @@ h1 {
 }
 
 .history-text p {
-  margin: 0;
+  margin: 1rem;
 }
 
 .history-img {
@@ -111,8 +111,9 @@ h1 {
 
 .image-row {
     display: grid;
+    margin-top: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+    gap: 6px;
     text-align: center; 
 }
 
