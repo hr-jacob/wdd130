@@ -68,13 +68,15 @@ input[type="checkbox"] {
 }
 
 button {
-  margin: 1rem;
+  display: block;       
+  margin: 1rem auto;     
   background-color: navy;
   color: #fff;
   border: none;
   border-radius: .5rem;
-  padding: .75rem;
+  padding: .80rem;
   font-size: 1.2rem;
+  width: 125px;
 }
 
 button:hover {
@@ -89,10 +91,6 @@ button:hover {
 .column1 {
   grid-template-columns: 3fr 1fr;
   margin: 0.5rem 0;
-}
-
-.column2 {
-  grid-template-columns: 1fr 2fr;
 }
 
 footer {
