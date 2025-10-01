@@ -93,6 +93,10 @@ button:hover {
   margin: 0.5rem 0;
 }
 
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
+
 footer {
   margin: 1rem auto 0;
   width: 650px;
