@@ -5,8 +5,20 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Georgia, Times New Roman, serif;
   font-size: 1.2em;
   color: #333;
   background: #fff;
+}
+
+header {
+  margin: 0 auto;
+  width: 650px;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.5em;
+  color: navy;
+  text-align: center;
 }
