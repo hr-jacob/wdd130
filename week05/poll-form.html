@@ -29,9 +29,10 @@
         <form>
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite internet browser?</label>
                 <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
                     <select id="browser" name="browser">
+                        <option value="chrome"> - Select -</option>
                         <option value="chrome">Chrome</option>
                         <option value="firefox">Firefox</option>
                         <option value="safari">Safari</option>
@@ -39,10 +40,11 @@
                         <option value="brave">Brave</option>
                         <option value="other">Other</option>
                     </select>
-                    <br>
+                </div>
+                <div class="form-item column1">
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet">
-                </div><br>
+                </div>
                 <label for="feedback">List the places you have lived:</label>
                 <textarea id="feedback" name="feedback" rows="4"
                     placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
