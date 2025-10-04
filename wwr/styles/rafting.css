@@ -172,3 +172,16 @@ form fieldset {
     border: 1px solid #ccc;
 }
 
+button {
+  display: block;       
+  margin: 1rem auto;     
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+  border-radius: .8rem;
+  padding: 2 rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 350px;
+  height: 30px;
+}
