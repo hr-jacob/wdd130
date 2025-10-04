@@ -58,7 +58,7 @@ nav, p, section, article {
     width: 840px;          
     margin: 0 auto;        
     text-align: center;   
-    padding: 1rem 0;  
+    padding: rem 0;  
     color: #070707;    
 }
 
