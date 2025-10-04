@@ -21,18 +21,71 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <main>
         <div class="hero">
             <h1>Xtreme Rivers Rafting</h1>
-
+            <p>1012 Workshop Street <br>
+                Divers, Colorado <br>
+                +1 198 425 6279 <br>
+                info@xtremerivers.com
+            </p>
             <article class="hero">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d406.5132360244469!2d-106.82853408835089!3d39.20150122816303!3m2!1i1024!2i768!4f13.1!2m1!1sdonde%20es%20el%20mejor%20rio%20para%20rafting%20en%20usa!5e0!3m2!1ses-419!2smx!4v1759597904555!5m2!1ses-419!2smx"
-                    width="300" height="250" style="border: 0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </article>
+                <div class="contact">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d406.5132360244469!2d-106.82853408835089!3d39.20150122816303!3m2!1i1024!2i768!4f13.1!2m1!1sdonde%20es%20el%20mejor%20rio%20para%20rafting%20en%20usa!5e0!3m2!1ses-419!2smx!4v1759597904555!5m2!1ses-419!2smx"
+                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <form action="#" method="post">
+                        <!-- Nombre -->
+                        <div class="form-item">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-item">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                        </div>
+
+                        <!-- Message Purpose -->
+                        <fieldset>
+                            <legend>Message Purpose</legend>
+                            <div>
+                                <input type="radio" id="general" name="purpose" value="general" checked>
+                                <label for="general">General Inquiry</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="reservation" name="purpose" value="reservation">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
+                        </fieldset>
+
+                        <!-- Message -->
+                        <div class="form-item">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Type here" required></textarea>
+                        </div>
+
+                        <!-- Subscribe Checkbox -->
+                        <div class="form-item">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-item">
+                            <button type="submit">Get in Touch!</button>
+                        </div>
+                    </form>
+                </div>
+
         </div>
-        </section>
         <section>
             <h2>Adventure Awaits You</h2>
 
