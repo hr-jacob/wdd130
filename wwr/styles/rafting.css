@@ -185,3 +185,17 @@ button {
   width: 350px;
   height: 30px;
 }
+
+.form-item {
+  display: flex;
+  flex-direction: row; 
+}
+
+.form-item label {
+  margin-bottom: 0.5rem; 
+  text-align: left;
+}
+
+.form-item textarea {
+  width: 100%;
+}
