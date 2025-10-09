@@ -35,10 +35,11 @@ header, main, footer {
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
+  display: grid;                 
+  grid-template-columns: auto 1fr; 
+  align-items: center;                           
   padding: 10px;
+  margin-bottom: 0; /* remove any default margin */
 }
 
 nav {
@@ -93,15 +94,16 @@ h1 {
 .hero {
   position: relative;
   max-width: 840px;
-  margin: 0 auto; /* no top/bottom margin to flush with header */
+  margin: 0 auto; /* remove top margin */
 }
 
 .hero img {
-  display: block;
+  display: block;       /* ensures no baseline spacing */
   width: 100%;
   height: auto;
   object-fit: cover;
-  vertical-align: top; /* remove inline-block gap */
+  vertical-align: top;  /* remove inline image gap */
+  margin: 0;            /* remove any default margins */
 }
 
 /* Hero article inside image */
