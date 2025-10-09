@@ -383,5 +383,31 @@ footer {
   }
 }
 
+.trips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: orange;
+    color: white;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
