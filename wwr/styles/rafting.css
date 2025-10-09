@@ -393,7 +393,9 @@ footer {
 .trip img {
   align-self: center;
   border-radius: 10px;
-  margin-bottom: 1rem;
+  margin: 1rem 0; /* adds top and bottom space */
+  max-width: 100%;
+  height: auto;
 }
 
 .trip {
