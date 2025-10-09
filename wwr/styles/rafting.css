@@ -307,8 +307,8 @@ footer {
 }
 
 .grid-item img {
-  width: 840px;
-  border-radius: 0.5rem;
+  width: 80%;     /* takes up 80% of the grid-item width */
+  height: auto;
 }
 
 .grid-item h3 {
