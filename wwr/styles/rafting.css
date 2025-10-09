@@ -257,7 +257,7 @@ button {
 }
 
 .grid-item img {
-  width: 100%;
+  width: 840px;
   border-radius: 0.5rem;
 }
 
@@ -331,4 +331,17 @@ button {
     padding: 2rem 1rem;
   }
 }
+
+/* === MAKE HERO MATCH PAGE WIDTH === */
+.hero {
+  max-width: 840px;
+  margin: auto;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 
