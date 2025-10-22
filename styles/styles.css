@@ -52,25 +52,29 @@ aside {
       grid-row: 1/2;
 }
 
-aside h2{
-    position: absolute;
-    top: 15px;
-    left: 80px
+aside h2 {
+  position: absolute;
+  top: 15px;                
+  left: 50%;               
+  transform: translateX(-50%);
+  margin: 0;                
+  text-align: center;       
 }
 
 aside img {
-    display: block;   
-    width: 200px;
-    height: auto;
-    margin: 0 auto; 
+  display: block;   
+  width: 200px;
+  height: auto;
+  margin: 3rem auto 0; 
 }
+
 
 h1 {
     color: darkblue;
 }
 
 p {
-    padding: 0px;
+    padding: 10px;
 }
 
 footer {
